@@ -1,4 +1,11 @@
 {
+  "name": "software-testing-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "author": "",
+  "license": "MIT",
   "dependencies": {
     "chai": "^4.3.10",
     "mocha": "^10.2.0"
@@ -6,18 +13,4 @@
   "scripts": {
     "test": "mocha"
   }
-}
-{
-  "name": "software-testing-assignment",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "test": "mocha"
-  },
-  "author": "",
-  "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {}
 }

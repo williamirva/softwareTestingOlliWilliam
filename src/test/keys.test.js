@@ -13,7 +13,7 @@ describe('keys function', () => {
     });
 
     it('should return product names for an array-like object', () => {
-        const arrayLikeObj = { maksamakkara: '10', perunajauhot: '20', maito: 17 };
+        const arrayLikeObj = { maksamakkara: '10', perunajauhot: '20', maito: 3 };
         expect(keys(arrayLikeObj)).to.deep.equal(['maksamakkara', 'perunajauhot', 'maito']);
     });
 

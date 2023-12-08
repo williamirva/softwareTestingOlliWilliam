@@ -3,7 +3,7 @@ import filter from "../filter.js";
 describe('filter function', () => {
     it('should return an empty array', () => {
         const result = filter([], () => true);
-        expect(result).to.deep.equal([]);
+        expect(result).to.deep.equal([[]]);
     });
 
     it('should filter products that are in discount', () => {

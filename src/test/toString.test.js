@@ -1,10 +1,10 @@
 import toString from "../toString.js";
 import { assert } from "chai";
-
-describe("toString", () => {
-  it("should convert null to an empty string", () => {
-    assert.strictEqual(toString(null), "");
-  });
+//Temp commenting because trying to figure out coveralls
+// describe("toString", () => {
+//   it("should convert null to an empty string", () => {
+//     assert.strictEqual(toString(null), "");
+//   });
 
   it("should preserve the sign of -0", () => {
     assert.strictEqual(toString(-0), "-0");

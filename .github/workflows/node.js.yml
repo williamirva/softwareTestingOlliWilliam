@@ -31,7 +31,6 @@ jobs:
     - run: npm test
     
   finish:
-    needs: build
     runs-on: ubuntu-latest
     steps:
     - name: Coveralls GitHub Action     

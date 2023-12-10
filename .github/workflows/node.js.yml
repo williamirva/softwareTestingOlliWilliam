@@ -35,3 +35,5 @@ jobs:
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         flag-name: ${{ matrix.node-version }}
+      env:
+        COVERALLS_GITHUB_ACTION_COVERAGE_DIRECTORY: './coverage'

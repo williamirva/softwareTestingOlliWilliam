@@ -8,11 +8,13 @@
   "license": "MIT",
   "dependencies": {
     "chai": "^4.3.10",
-    "mocha": "^10.2.0",
-    "nyc": "^15.1.0"
+    "mocha": "^10.2.0"
   },
   "scripts": {
     "test": "mocha src/test/**/*.js",
     "test:coverage": "nyc npm test"
+  },
+  "devDependencies": {
+    "nyc": "^15.1.0"
   }
 }

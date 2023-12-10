@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import isEmpty from "../isEmpty.js";
+import isEmpty from "../src/isEmpty.js";
 
 describe('isEmpty function (e-commerce context)', () => {
     it('should return true for an empty cart (empty array)', () => {

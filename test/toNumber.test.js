@@ -1,4 +1,4 @@
-import toNumber from "../toNumber.js";
+import toNumber from "../src/toNumber.js";
 import { assert } from "chai";
 describe("toNumber", () => {
     it("should convert a decimal string to number", () => {

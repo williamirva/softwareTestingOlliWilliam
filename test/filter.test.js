@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import filter from "../filter.js";
+import filter from "../src/filter.js";
 describe('filter function', () => {
     it('should return an empty array', () => {
         const result = filter([], () => true);

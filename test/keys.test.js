@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import keys from "../keys.js";
+import keys from "../src/keys.js";
 
 describe('keys function', () => {
     it('should return names of products', () => {

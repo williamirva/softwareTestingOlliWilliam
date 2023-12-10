@@ -11,8 +11,8 @@
     "mocha": "^10.2.0"
   },
   "scripts": {
-    "test": "mocha src/test/**/*.js",
-    "test:coverage": "c8 mocha --reporter mocha-lcov-reporter src/test/**/*.js"
+    "test": "c8 --reporter=text --reporter=lcov mocha test/**/*.js",
+    "test:coverage": "c8 --reporter=text --reporter=lcov mocha test/**/*.js"
   },
   "devDependencies": {
     "c8": "^8.0.1",

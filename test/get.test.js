@@ -1,6 +1,6 @@
 // Import the necessary libraries
 import { expect } from 'chai';
-import get from "../get.js";
+import get from "../src/get.js";
 describe('get function (e-commerce context)', () => {
     it('should get the price of a product', () => {
         const product = {

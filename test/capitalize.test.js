@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import capitalize from "../capitalize.js";
+import capitalize from "../src/capitalize.js";
 
 describe('capitalize function', () => {
     it('should capitalize the first character', () => {

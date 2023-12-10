@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import ceil from "../ceil.js";
+import ceil from "../src/ceil.js";
 describe('ceil function', () => {
     it('should round up to the nearest integer', () => {
         expect(ceil(1.045)).to.equal(2);

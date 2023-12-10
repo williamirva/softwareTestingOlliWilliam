@@ -1,4 +1,4 @@
-import toString from "../toString.js";
+import toString from "../src/toString.js";
 import { assert } from "chai";
 describe("toString", () => {
   //Temp commenting because trying to figure out coveralls

@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import add from "../add.js";
+import add from "../src/add.js";
 describe('add function', () => {
     it('should do basic addition', () => {
         const result = add(1, 2);

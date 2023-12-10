@@ -1,4 +1,4 @@
 # node module files
-/node_modules/
-.nyc_output
-coverage
+node_modules/
+.nyc_output/
+coverage/

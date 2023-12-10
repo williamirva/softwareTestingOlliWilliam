@@ -1,3 +1,6 @@
 {
+  "all": true,
+  "include": ["src/**/*.js"],
+  "exclude": ["src/test/**/*.js"],
   "reporter": ["lcov"]
 }
